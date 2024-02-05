@@ -3,7 +3,9 @@ import logo from "./logo.svg"
 function App() {
   return (
     <div className="App">
-     <img src={logo}/>
+      <h3>{process.env.NODE_ENV}</h3>
+      {process.env.NODE_ENV='production'&&(
+     <img src={logo}/>)}
     </div>
   );
 }

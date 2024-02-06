@@ -1,11 +1,10 @@
-import logo from "./logo.svg"
+//import logo from './logo.svg';
+//import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h3>{process.env.NODE_ENV}</h3>
-      {process.env.NODE_ENV='production'&&(
-     <img src={logo}/>)}
+      <h1>REACT DÜNYASI</h1>
     </div>
   );
 }
